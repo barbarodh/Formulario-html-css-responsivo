@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 class="logo">Formulario de Contacto con <span>HTML5 y CSS3</span></h1>
+
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <center><h3>Contacto</h3></center>
+                <form action="">
+                    <p>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="fullname">
+                    </p>
+                    <p>
+                        <label>Correo Electrónico</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Teléfono</label>
+                        <input type="tel" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </p>
+                    <p>
+                        <label>Asunto</label>
+                        <input type="text" name="asunto">
+                    </p>
+                    <p class="block">
+                        <label>Mensaje</label>
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit">Enviar</button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Información</h4>
+                <ul>
+                    <li>Calle #00</li>
+                    <li>000 000 000</li>
+                    <li>contacto@gmail.com</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat in ea architecto? Ipsa, accusantium. Reprehenderit eum dicta accusamus sapiente provident odio. Obcaecati repudiandae architecto dolor temporibus illo quos aliquid aperiam!</p>
+                <p>barbarodh</p>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
